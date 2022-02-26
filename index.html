@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container w-100 m-auto">
+      <div class="row w-100 m-auto">
+        <div class="col-md-6 w-100 m-auto text-center">
+          <h1>left side</h1>
+          <div class="input-group mb-3">
+            <input id="search-box" type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <span onclick="allPlayers()" class="input-group-text" id="search-btn">Search
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 w-100 m-auto text-center">
+          <h1>right side</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- add script  -->
+    <script src="./app.js"></script>
+  </body>
+</html>
